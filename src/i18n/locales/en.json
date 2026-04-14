@@ -228,11 +228,12 @@
     "education": {
       "hero": {
         "title": "Holistic Education",
-        "subtitle": "Empowering minds through knowledge and value-based learning."
+        "subtitle": "Empowering minds. Shaping conscious futures."
       },
       "intro": {
         "title": "Our Approach to Learning",
-        "content": "Education is the cornerstone of societal progress. We believe that true learning goes beyond textbooks—it involves building character, nurturing wisdom, and developing a sense of responsibility. MICF integrates modern knowledge with time-tested spiritual values to prepare the next generation."
+        "content": "Education is the cornerstone of societal progress. We believe that true learning goes beyond textbooks—it involves building character, nurturing wisdom, and developing a sense of responsibility. MICF integrates modern knowledge with time-tested spiritual values to prepare the next generation. Our schools and Gurukuls focus on the all-round development of students, ensuring they are not only academically proficient but also ethically grounded and socially aware.",
+        "media_label": "Mission in Action"
       },
       "vision": {
         "title": "A Vision for Enlightenment",
@@ -241,51 +242,47 @@
       "programs": {
         "title": "Key Educational Programs",
         "list": [
-          { "title": "Traditional Gurukuls", "desc": "Value-based residential education in a spiritual environment." },
-          { "title": "Modern Schools", "desc": "Equipping students with cutting-edge knowledge and technology." },
-          { "title": "Scholarship Fund", "desc": "Financial aid for meritorious students from underprivileged backgrounds." }
+          {
+            "title": "Traditional Gurukuls",
+            "desc": "Value-based residential education in a spiritual environment, focusing on ancient wisdom and modern character building."
+          },
+          {
+            "title": "Modern Schools",
+            "desc": "Equipping students with cutting-edge knowledge, technology, and global perspectives in a supportive atmosphere."
+          },
+          {
+            "title": "Scholarship Fund",
+            "desc": "Providing crucial financial aid for meritorious students from underprivileged backgrounds to pursue their dreams."
+          }
         ]
       },
       "impact": {
-        "title": "Academic Realities",
+        "title": "Our Footprint of Knowledge",
         "stats": [
-          { "value": "15,000+", "label": "Students Educated" },
-          { "value": "20+", "label": "Schools Managed" },
-          { "value": "$100k+", "label": "Scholarships Distributed" }
+          { "value": "500+", "label": "Students Supported", "icon": "Users" },
+          { "value": "100+", "label": "Scholarships", "icon": "Award" },
+          { "value": "20+", "label": "Initiatives", "icon": "CheckCircle2" },
+          { "value": "10+", "label": "Institutions", "icon": "Home" }
         ]
       },
-      "stories": {
-        "title": "Student Journeys",
-        "list": [
-          { "name": "Rahul's Success", "text": "From a remote village to an engineering degree, Rahul's journey embodies the power of MICF scholarships." },
-          { "name": "Priya's Wisdom", "text": "A Gurukul student who excelled in both ancient scriptures and modern mathematics." }
-        ]
-      },
-      "contribute": {
-        "title": "Make an Impact",
-        "options": [
-          { "title": "Sponsor a Student", "desc": "Provide annual fees and supplies for a child in need." },
-          { "title": "Volunteer as a Mentor", "desc": "Share your expertise through our guest lecture series." }
-        ]
-      },
-      "gallery": { "title": "Life at MICF Schools" },
       "testimonials": {
         "title": "Voices of Growth",
         "list": [
-          { "text": "The combination of values and science has transformed my son's perspective.", "author": "Parent of a Student" },
-          { "text": "MICF didn't just give me an education, it gave me a purpose.", "author": "Former Scholarship Recipient" }
+          { "text": "The combination of values and science has transformed my son's perspective. He is now more mindful of his choices.", "author": "Parent of a Student" },
+          { "text": "MICF didn't just give me an education, it gave me a purpose. I am now serving my community as a teacher.", "author": "Former Scholarship Recipient" }
         ]
       },
       "faqs": {
-        "title": "Questions on Learning",
+        "title": "Frequently Asked Questions",
         "list": [
-          { "q": "Are the schools open to everyone?", "a": "Yes, our programs serve students from all backgrounds based on merit and need." },
-          { "q": "How can I apply for a scholarship?", "a": "Applications open annually in April through our regional centers." }
+          { "q": "Are the schools open to everyone?", "a": "Yes, our programs serve students from all backgrounds based on merit and financial need, fostering an inclusive learning environment." },
+          { "q": "How can I apply for a scholarship?", "a": "Applications open annually in April through our regional centers. You can also contact us online for digital application forms." }
         ]
       },
       "cta": {
-        "title": "Support the Future",
-        "button": "Support Education"
+        "title": "Be the Reason Someone Learns Today",
+        "primary": "Support Education",
+        "secondary": "Become a Volunteer"
       }
     },
     "social": {
@@ -538,6 +535,90 @@
       "cta": {
         "title": "Nurture the Nature",
         "button": "Act for Nature"
+      }
+    }
+  },
+  "media_page": {
+    "title": "Media Gallery",
+    "subtitle": "Journey through our impact, one event at a time.",
+    "back_to_albums": "Back to Albums",
+    "view_album": "View Album",
+    "albums": {
+      "republic_day": {
+        "title": "Republic Day Celebration 2026",
+        "desc": "Celebrating the spirit of our nation with cultural programs and flag hoisting."
+      },
+      "rss_meeting": {
+        "title": "State Visit: Meeting with RSS Head",
+        "desc": "A significant dialogue on national values and spiritual contribution."
+      },
+      "youth_camp": {
+        "title": "Annual Youth Engagement Camp",
+        "desc": "Empowering the next generation through value-based workshops."
+      },
+      "environment": {
+        "title": "Environment Protection Drive 2025",
+        "desc": "Collective action for a greener tomorrow."
+      }
+    },
+    "no_results": "No media found for this category."
+  },
+  "contact_page": {
+    "us": {
+      "hero": {
+        "tagline": "Get In Touch",
+        "title": "Contact Us",
+        "subtitle": "We are here to listen and help. Reach out to us for any inquiries or support."
+      },
+      "info": {
+        "labels": {
+          "address": "Address",
+          "phone": "Call Us",
+          "whatsapp": "WhatsApp",
+          "email": "Email Us"
+        },
+        "address": "MICF Center, Near Spiritual Park, Pune, Maharashtra, India",
+        "phone": "+91 91234 56789",
+        "whatsapp": "+91 98765 43210",
+        "email": "contact@micf.org",
+        "response_time": "Response time:",
+        "within_24h": "Within 24 hours"
+      },
+      "form": {
+        "title": "Send us a Message",
+        "name": "Full Name",
+        "email": "Email Address",
+        "subject": "Subject",
+        "message": "Message",
+        "submit": "Send Message",
+        "success": "Thank you for reaching out! We will get back to you soon.",
+        "sent_status": "Message Sent!",
+        "send_another": "Send another message",
+        "placeholders": {
+          "name": "e.g. John Doe",
+          "email": "john@example.com",
+          "subject": "How can we help?"
+        }
+      }
+    },
+    "location": {
+      "hero": {
+        "tagline": "Visit Us",
+        "title": "Our Location",
+        "subtitle": "Find us at our main center for visits and offline support."
+      },
+      "view_on_maps": "View on Google Maps",
+      "address_card": {
+        "title": "Main Office",
+        "details": "MICF Center, Near Spiritual Park, Pune, Maharashtra - 411001",
+        "directions": "Easy to reach via Highway 4"
+      },
+      "hours": {
+        "title": "Visiting Hours",
+        "weekdays": "Monday - Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday",
+        "closed": "Closed"
       }
     }
   }

@@ -10,6 +10,10 @@ import Vision from './pages/Vision';
 import Documents from './pages/Documents';
 import Team from './pages/Team';
 import InitiativeDetail from './pages/InitiativeDetail';
+import Education from './pages/Education';
+import ContactUs from './pages/ContactUs';
+import Location from './pages/Location';
+import Media from './pages/Media';
 import logo from './assets/images/logo.png';
 
 // Scroll to top on navigation
@@ -402,7 +406,11 @@ function App() {
           <Route path="/about/vision" element={<Vision />} />
           <Route path="/about/documents" element={<Documents />} />
           <Route path="/about/team" element={<Team />} />
+          <Route path="/initiatives/education" element={<Education />} />
           <Route path="/initiatives/:slug" element={<InitiativeDetail />} />
+          <Route path="/contact/us" element={<ContactUs />} />
+          <Route path="/contact/location" element={<Location />} />
+          <Route path="/media" element={<Media />} />
           <Route path="*" element={<div className="section-container text-center py-40">
             <h2 className="text-4xl font-serif text-brand-title mb-4">Page Under Construction</h2>
             <p className="text-brand-gray">We are working hard to bring this content to you soon.</p>
