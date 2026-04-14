@@ -77,20 +77,20 @@ html[lang="hi"] {
   h4,
   h5,
   h6 {
-    @apply font-serif font-medium tracking-tight;
+    /* @apply font-serif font-medium tracking-tight; */
     color: var(--color-brand-title);
   }
 
   h1 {
-    @apply text-5xl md:text-7xl lg:text-8xl;
+    /* @apply text-5xl md:text-7xl lg:text-8xl; */
   }
 
   h2 {
-    @apply text-4xl md:text-6xl;
+    /* @apply text-4xl md:text-6xl; */
   }
 
   h3 {
-    @apply text-3xl md:text-5xl;
+    /* @apply text-3xl md:text-5xl; */
   }
 }
 

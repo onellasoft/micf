@@ -51,17 +51,17 @@ const Media = () => {
         { id: 101, albumId: 'republic_day', type: 'photo', src: 'https://images.unsplash.com/photo-1532375810709-75b1da00537c?auto=format&fit=crop&q=80&w=800', title: 'National Flag Ceremony' },
         { id: 102, albumId: 'republic_day', type: 'photo', src: 'https://images.unsplash.com/photo-1628155930542-3c7a64e2c833?auto=format&fit=crop&q=80&w=800', title: 'Celebrating at the Foundation' },
         { id: 103, albumId: 'republic_day', type: 'photo', src: 'https://images.unsplash.com/photo-1590483734061-86105f778a63?auto=format&fit=crop&q=80&w=800', title: 'Cultural Program Highlights' },
-        
+
         // RSS Meeting
         { id: 201, albumId: 'rss_meeting', type: 'photo', src: 'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&q=80&w=800', title: 'Dialogue on National Values' },
         { id: 202, albumId: 'rss_meeting', type: 'photo', src: socialImg, title: 'Community Outreach Discussion' },
         { id: 203, albumId: 'rss_meeting', type: 'photo', src: religionImg, title: 'Spiritual Heritage Dialogue' },
-        
+
         // Youth Camp
         { id: 301, albumId: 'youth_camp', type: 'photo', src: eduImg, title: 'Character Building Session' },
         { id: 302, albumId: 'youth_camp', type: 'photo', src: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&q=80&w=800', title: 'Student Interaction' },
         { id: 303, albumId: 'youth_camp', type: 'video', thumbnail: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&q=80&w=800', videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ', title: 'Highlights of the Camp' },
-        
+
         // Environment
         { id: 401, albumId: 'environment', type: 'photo', src: envImg, title: 'Tree Plantation at Ashram' },
         { id: 402, albumId: 'environment', type: 'photo', src: 'https://images.unsplash.com/photo-1542601906990-b4d3fb773b09?auto=format&fit=crop&q=80&w=800', title: 'Village Green Initiative' },
@@ -72,9 +72,21 @@ const Media = () => {
     const filteredMedia = mediaItems.filter(item => item.albumId === selectedAlbumId);
 
     return (
-        <div className="bg-cream min-h-screen pt-28 pb-20">
+        <div className="max-w-5xl mx-auto bg-cream min-h-screen pb-12 pt-32">
+            <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="text-center md:text-left"
+            >
+                <h2 className="text-3xl md:text-5xl font-serif text-brand-title mb-3">
+                    {t('media_page.title')}
+                </h2>
+                <div className="w-48 h-1 bg-gradient-to-r from-transparent via-primary to-transparent mb-8 mx-auto md:mx-0"></div>
+
+            </motion.div>
             {/* Hero Section */}
-            <div className="section-container !py-10 text-center">
+            {/* <div className="section-container !py-10 text-center">
                 <motion.span
                     initial={{ opacity: 0, y: 10 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -86,7 +98,7 @@ const Media = () => {
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.1 }}
-                    className="mb-6 text-3xl md:text-5xl font-bold tracking-tight leading-tight text-brand-title"
+                    className="mb-3 text-3xl md:text-5xl font-semibold tracking-tight leading-tight text-brand-title"
                 >
                     {selectedAlbum ? selectedAlbum.title : t('media_page.title')}
                 </motion.h1>
@@ -98,9 +110,9 @@ const Media = () => {
                 >
                     {selectedAlbum ? selectedAlbum.desc : t('media_page.subtitle')}
                 </motion.p>
-            </div>
+            </div> */}
 
-            <div className="max-w-7xl mx-auto px-4">
+            <div className="max-w-7xl mx-auto">
                 <AnimatePresence mode="wait">
                     {!selectedAlbumId ? (
                         /* Album Grid View */
@@ -115,7 +127,7 @@ const Media = () => {
                                 <motion.div
                                     key={album.id}
                                     whileHover={{ y: -8 }}
-                                    className="group cursor-pointer flex flex-col h-full bg-white rounded-[2.5rem] overflow-hidden shadow-soft hover:shadow-premium transition-all duration-500 border border-brand-light-gray/20"
+                                    className="group cursor-pointer flex flex-col h-full bg-white rounded-[15px] overflow-hidden shadow-soft hover:shadow-premium transition-all duration-500 border border-brand-light-gray/20"
                                     onClick={() => setSelectedAlbumId(album.id)}
                                 >
                                     <div className="aspect-[16/10] overflow-hidden">
@@ -125,18 +137,18 @@ const Media = () => {
                                             className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
                                         />
                                     </div>
-                                    <div className="p-8 flex flex-col">
-                                        <h2 className="text-brand-title text-xl md:text-2xl mb-4 font-bold tracking-tight leading-tight">
+                                    <div className="px-4 py-6 flex flex-col">
+                                        <h2 className="text-[16px] mb-2 tracking-tight leading-tight">
                                             {album.title}
                                         </h2>
-                                        
-                                        <div className="flex items-center justify-between pt-4 border-t border-brand-light-gray/10 mt-auto">
+
+                                        <div className="pt-2 flex items-center justify-between border-t border-brand-light-gray/10 mt-auto">
                                             <div className="flex items-center gap-2">
-                                                <Calendar size={14} className="text-primary" />
+                                                <Calendar size={14} className="text-brand-gray" />
                                                 <span className="text-brand-gray text-xs font-medium">{album.date}</span>
                                             </div>
-                                            
-                                            <div className="flex items-center gap-1 text-primary font-bold text-sm group-hover:gap-2 transition-all">
+
+                                            <div className="flex items-center gap-1 text-primary  text-sm group-hover:gap-2 transition-all">
                                                 {t('media_page.view_album')} <ArrowRight size={16} className="transition-transform" />
                                             </div>
                                         </div>
@@ -152,16 +164,13 @@ const Media = () => {
                             animate={{ opacity: 1, x: 0 }}
                             exit={{ opacity: 0, x: -20 }}
                         >
-                            <div className="flex justify-between items-center mb-12">
-                                <button
-                                    onClick={() => setSelectedAlbumId(null)}
-                                    className="flex items-center gap-3 text-primary font-bold hover:gap-4 transition-all group bg-white px-6 py-3 rounded-2xl shadow-soft"
-                                >
-                                    <ChevronLeft className="group-hover:-translate-x-1 transition-transform" />
-                                    {t('media_page.back_to_albums')}
-                                </button>
-                                <div className="text-right">
-                                    <span className="text-brand-gray text-[11px] uppercase tracking-wider font-bold">{selectedAlbum.date}</span>
+                            <div className="flex justify-start items-center mb-12">
+                                <div className='flex gap-1 items-center'>
+                                    <ChevronLeft className="text-primary cursor-pointer" onClick={() => setSelectedAlbumId(null)} />
+                                    <div className="flex flex-col">
+                                        <span className="text-primary text-[18px]">{selectedAlbum.title}</span>
+                                        <span className="text-brand-gray text-[14px]">{selectedAlbum.date}</span>
+                                    </div>
                                 </div>
                             </div>
 
@@ -171,7 +180,7 @@ const Media = () => {
                                         key={item.id}
                                         whileHover={{ y: -5 }}
                                         onClick={() => setSelectedMedia(item)}
-                                        className="group relative cursor-pointer overflow-hidden rounded-[2.5rem] shadow-soft bg-white aspect-square border border-brand-light-gray/10"
+                                        className="group relative cursor-pointer overflow-hidden rounded-[10px] shadow-soft bg-white aspect-square border border-brand-light-gray/10"
                                     >
                                         <img
                                             src={item.type === 'photo' ? item.src : item.thumbnail}
