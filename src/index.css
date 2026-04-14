@@ -1,0 +1,139 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Kalam';
+  src: url('./assets/fonts/Kalam/Kalam-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Kalam';
+  src: url('./assets/fonts/Kalam/Kalam-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Kalam';
+  src: url('./assets/fonts/Kalam/Kalam-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotu';
+  src: url('./assets/fonts/Gotu/Gotu-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@theme {
+  --color-primary: #D5A44C;
+  --color-primary-dark: #b88a38;
+  --color-cream: #fbf5e6;
+  --color-beige: #FFECB3;
+  --color-brand-dark: #291508;
+  --color-brand-title: #3d1017;
+  --color-brand-gray: #757575;
+  --color-brand-light-gray: #E0E0E0;
+  --color-success: #2E7D32;
+  --color-error: #C62828;
+
+  --font-sans: "Poppins", "Noto Sans", sans-serif;
+  --font-serif: "Cormorant Garamond", serif;
+  --font-devanagari: "Noto Sans Devanagari", sans-serif;
+
+  --radius-xl: 12px;
+  --radius-2xl: 20px;
+
+  --shadow-soft: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+  --shadow-3xl: 0 35px 60px -15px rgba(0, 0, 0, 0.1);
+  --shadow-premium: 0 25px 50px -12px rgba(41, 21, 8, 0.15);
+}
+
+html[lang="mr"],
+html[lang="hi"] {
+  --font-sans: "Gotu", "Poppins", "Noto Sans", sans-serif;
+  --font-serif: "Gotu", "Cormorant Garamond", serif;
+  --font-devanagari: "Gotu", "Noto Sans Devanagari", sans-serif;
+  /* 
+  --font-sans: "Kalam", "Poppins", "Noto Sans", sans-serif;
+  --font-serif: "Kalam", "Cormorant Garamond", serif;
+  --font-devanagari: "Kalam", "Noto Sans Devanagari", sans-serif;
+  */
+}
+
+@layer base {
+  body {
+    @apply bg-cream text-brand-dark font-sans antialiased selection:bg-primary/20;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif font-medium tracking-tight;
+    color: var(--color-brand-title);
+  }
+
+  h1 {
+    @apply text-5xl md:text-7xl lg:text-8xl;
+  }
+
+  h2 {
+    @apply text-4xl md:text-6xl;
+  }
+
+  h3 {
+    @apply text-3xl md:text-5xl;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary hover:bg-primary-dark text-white px-8 py-3.5 rounded-xl font-semibold transition-all duration-300 shadow-soft active:scale-95;
+  }
+
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-32;
+  }
+
+  .glass-nav {
+    @apply bg-cream/80 backdrop-blur-md border-b border-white/20 sticky top-0 z-50;
+  }
+
+  .tagline {
+    @apply text-primary font-sans text-sm md:text-base font-medium tracking-[0.4em] uppercase mb-4 text-center block;
+  }
+
+  .nav-dropdown-enter {
+    animation: slideDown 0.3s ease-out forwards;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slow-zoom {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.1);
+  }
+}

@@ -1,0 +1,544 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": {
+      "label": "About",
+      "micf": "About MICF",
+      "mission": "Mission",
+      "vision": "Vision",
+      "document": "Foundation Document",
+      "team": "Our Team"
+    },
+    "initiatives": {
+      "label": "Initiatives",
+      "education": "Education",
+      "social": "Social Welfare",
+      "religion": "Religion",
+      "charity": "Charity",
+      "environment": "Environment Protection"
+    },
+    "media": "Media",
+    "contact": {
+      "label": "Contact",
+      "contact_us": "Contact Us",
+      "location": "Location / Map"
+    }
+  },
+  "home": {
+    "hero": {
+      "sloka": "सर्वभूतहिते रताः",
+      "tagline": "WELCOME TO",
+      "title": "Mahanubhav International Charitable Foundation",
+      "subtitle": "A Sacred Space for Meditation, Yoga & Spiritual Growth",
+      "quote": "सर्वभूतहिते रताः",
+      "cta": "EXPLORE PROGRAMS"
+    },
+    "about": {
+      "title": "About MICF",
+      "subtitle1": "MICF is founded with a deep commitment to serving the nation by fostering holistic development across key areas such as education, social welfare, religion, charity, and environmental protection. The organization works towards building a value-driven society guided by creation(सृजन), preservation(संवर्धन), protection(संरक्षण), and enlightenment(प्रबोधन ), ensuring meaningful progress at both individual and community levels.",
+      "subtitle2": "Through its initiatives, MICF aims to empower communities, preserve cultural and spiritual heritage, and promote sustainable practices. By integrating service with purpose, the foundation strives to create a positive and lasting impact, ensuring a balanced approach toward social upliftment and environmental stewardship for future generations.",
+      "link": "Read More"
+    },
+    "panch_krishna": {
+      "title": "Panch Krishna",
+      "subtitle": "The 5 Divine Forms",
+      "card_title": "Divine Form",
+      "card_desc": "Detail on original divine presence and philosophy."
+    },
+    "initiatives": {
+      "title": "Our Core Initiatives",
+      "subtitle": "Spiritual and social pathways for global transformation",
+      "category_label": "MISSION INITIATIVE",
+      "explore": "LEARN MORE",
+      "list": {
+        "education": {
+          "title": "Holistic Education",
+          "desc": "Promoting spiritual and modern education through our dedicated ashrams, focusing on character building and timeless values for all generations."
+        },
+        "social": {
+          "title": "Social Welfare",
+          "desc": "Serving the community through food distribution, disaster relief, and support for the marginalized, guided by the principle of selfless service."
+        },
+        "religion": {
+          "title": "Religion & Values",
+          "desc": "Spreading the divine wisdom of Panch Krishna and the ancient philosophy of Mahanubhav to create a spiritually aware and moral society."
+        },
+        "charity": {
+          "title": "Charity & Giving",
+          "desc": "Fostering a culture of compassion and generosity to provide for the essential needs of the underprivileged and support global humanitarian causes."
+        },
+        "environment": {
+          "title": "Environment Protection",
+          "desc": "Caring for nature as a sacred duty (Seva), with initiatives ranging from tree plantation to promoting eco-friendly spiritual gatherings."
+        }
+      }
+    },
+    "sessions": {
+      "tag": "Today's Featured Session",
+      "current_session": "\"The Path of Devotion in Modern Times\"",
+      "labels": {
+        "date": "30th March 2026",
+        "speaker": "Live Speaker"
+      },
+      "cta": "Join Session Now"
+    },
+    "inspiration": {
+      "title": "Our Inspiration",
+      "subtitle": "The spiritual lineage and gurus who guide our path",
+      "guru_name": "Swami Sarvanand Ji",
+      "guru_quote": "\"True service is the highest form of spiritual realization. Let us walk together on the path of light and truth.\""
+    },
+    "impact": {
+      "title": "Our Impact",
+      "subtitle": "Social transformation through compassion",
+      "stats": {
+        "beneficiaries": "Beneficiaries",
+        "volunteers": "Volunteers",
+        "sessions": "Sessions Held",
+        "districts": "Districts Covered"
+      }
+    },
+    "testimonials": {
+      "title": "Voices of MICF",
+      "subtitle": "What our community says about their spiritual journey",
+      "quote": "\"Joining MICF has been the most transformative experience of my life. The daily sessions and the community support are truly divine.\"",
+      "member": "Member since"
+    },
+    "get_involved": {
+      "headline": "Ready to Make an Impact?",
+      "subtitle": "Whether you want to volunteer, join our sessions, or contribute to our cause, your journey with MICF starts here.",
+      "cta_volunteer": "Volunteer Now",
+      "cta_member": "Become a Member"
+    }
+  },
+  "about_page": {
+    "tabs": {
+      "micf": "About MICF",
+      "mission": "Mission",
+      "vision": "Vision",
+      "document": "Foundation Document",
+      "inspiration": "Our Inspiration"
+    },
+    "micf": {
+      "title": "About MICF",
+      "content_p1": "The divine message given by the founder of the sect, Sarvajna Shri Chakradhar Swami, for the welfare of humanity across the world, was carried forward by our ancestors as far as Kabul and Kandahar. This glorious history is well known to us all. Recreating this bright legacy is the need of the hour.",
+      "content_p2": "We observe that the present era is becoming increasingly fast-paced. The scope of scientific progress is steadily embracing the entire world. The diversity and abundance of resources continue to attract human beings. However, indulgence in these resources is pushing human life into a state of unrest—this is a harsh reality.",
+      "content_p3": "A society trapped in addiction is living a life of despair. Many happy families are becoming victims of such addictions. Violence, corruption, disorder, and terrorism are disturbing the peace of the world, the nation, society, and families.",
+      "content_p4": "This must stop somewhere. The powerful thought that can bring an end to this is the divine message of Sarvajna, which awakens moral values. It is our collective moral responsibility to take this message to the entire world.",
+      "content_p5": "Once again, the time has come for our spiritual leaders to share this message with confidence. Reviving the memories of our ancestors and following in their footsteps, we resolve today to take this welfare-oriented philosophy of Swami beyond Kabul and Kandahar, across the seven seas, to the entire world.",
+      "content_p6": "Through collective dialogue and deliberation among scholars, intellectuals, experienced individuals, aspiring contributors, entrepreneurs, and thinkers from all sections and traditions, a new thought platform is being established — “Mahanubhav International Charitable Foundation (Akhil Vishwa Mahanubhav Parishad)”"
+    },
+    "mission": {
+      "title": "Mission",
+      "subtitle": "To build a value-driven society through:",
+      "pillars": {
+        "srijan": {
+          "title": "Srijan (Creation)",
+          "heading": "Building Positive Foundations",
+          "desc": "We focus on nurturing individuals with strong values, encouraging constructive thinking, and creating a foundation for responsible and ethical living. Srijan represents the beginning of transformation—where intentions shape actions."
+        },
+        "sanvardhan": {
+          "title": "Sanvardhan (Awareness)",
+          "heading": "Creating Conscious Understanding",
+          "desc": "Awareness drives meaningful change. Through knowledge sharing, cultural education, and social understanding, we aim to build a society that is informed, mindful, and capable of making responsible decisions."
+        },
+        "savrakshan": {
+          "title": "Savrakshan (Protection)",
+          "heading": "Preserving What Matters",
+          "desc": "We are committed to protecting our cultural heritage, environment, and ethical values. Savrakshan ensures that what is valuable today is sustained and respected for future generations."
+        },
+        "prabodhan": {
+          "title": "Prabodhan (Enlightenment)",
+          "heading": "Guiding Towards Wisdom",
+          "desc": "True progress comes from inner awakening. Prabodhan focuses on spreading knowledge that inspires wisdom, clarity, and purposeful action, leading individuals towards a higher understanding of life."
+        }
+      },
+      "footer": "MICF's mission is to empower individuals to think responsibly, act consciously, and contribute meaningfully to society."
+    },
+    "vision": {
+      "title": "Vision",
+      "subtitle": "To create a globally connected, ethically strong, and socially responsible society where:",
+      "pillars": {
+        "srijan": {
+          "title": "Srijan (Creation)",
+          "heading": "Future Statement",
+          "desc": "Where creation continuously nurtures growth and inspires positive transformation in individuals and communities."
+        },
+        "sanvardhan": {
+          "title": "Sanvardhan (Awareness)",
+          "heading": "Future Statement",
+          "desc": "Where awareness empowers individuals to make conscious, informed, and responsible decisions in every aspect of life."
+        },
+        "savrakshan": {
+          "title": "Savrakshan (Protection)",
+          "heading": "Future Statement",
+          "desc": "Where culture, values, and nature are preserved with care, ensuring continuity and balance for future generations."
+        },
+        "prabodhan": {
+          "title": "Prabodhan (Enlightenment)",
+          "heading": "Future Statement",
+          "desc": "Where enlightenment leads humanity towards wisdom, inner clarity, and a deeper understanding of life."
+        }
+      },
+      "footer": "MICF envisions becoming a global thought platform rooted in cultural wisdom and focused on future challenges."
+    },
+    "document": {
+      "title": "Foundation Documents",
+      "subtitle": "Transparency and Legal Foundations",
+      "preview_btn": "Preview",
+      "featured_list": [
+        { "name": "Certificate of Incorporation", "file": "CERTIFICATE_OF_INCORPORATION.PDF" },
+        { "name": "License Issue Letter", "file": "Letter_of_issue_of_license_u_s_to_new_company.PDF" }
+      ],
+      "list": [
+        "Trust Deed",
+        "Registration Certificate (Section 80G)",
+        "12A Registration Certificate",
+        "PAN Card of Foundation",
+        "NITI Aayog Darpan Certificate",
+        "Annual Audit Report 2024-25",
+        "FCRA Registration Document",
+        "Foundation Bylaws"
+      ]
+    },
+    "inspiration": {
+      "title": "Our Inspiration",
+      "subtitle": "The spiritual guidance behind our mission",
+      "content": "Our foundation is inspired by the divine teachings of Panch Krishna and the selfless lineage of Gurus who have dedicated their lives to the service of others. Their vision continues to light our path today."
+    },
+    "team": {
+      "title": "Our Dedicated Team",
+      "subtitle": "The hands and hearts behind MICF",
+      "members": [
+        { "name": "Acharya Sri Vardhanstha Baba", "designation": "Director" },
+        { "name": "Acharya Rajhans Shevlikar Baba (Alias) Dharashivkar Baba", "designation": "Managing Director" },
+        { "name": "Acharya Raherkar Baba", "designation": "Director" },
+        { "name": "Mahant Prakash Muni", "designation": "Managing Director" },
+        { "name": "Acharya Yakshadev Baba", "designation": "Director" },
+        { "name": "Acharya Kothi Baba", "designation": "Director" },
+        { "name": "Acharya Chichondikar Baba", "designation": "Director" },
+        { "name": "Acharya Prabhakar Baba Punekar", "designation": "Director" },
+        { "name": "Mahant Chirde Baba", "designation": "Director" },
+        { "name": "B. P. Kallurkar (Ex. Dy.SP)", "designation": "Director" },
+        { "name": "S. G. Lanke", "designation": "Director" }
+      ]
+    }
+  },
+  "initiative_pages": {
+    "education": {
+      "hero": {
+        "title": "Holistic Education",
+        "subtitle": "Empowering minds through knowledge and value-based learning."
+      },
+      "intro": {
+        "title": "Our Approach to Learning",
+        "content": "Education is the cornerstone of societal progress. We believe that true learning goes beyond textbooks—it involves building character, nurturing wisdom, and developing a sense of responsibility. MICF integrates modern knowledge with time-tested spiritual values to prepare the next generation."
+      },
+      "vision": {
+        "title": "A Vision for Enlightenment",
+        "content": "We envision an educated and aware society where every individual has access to high-quality education that fosters ethical leadership and social harmony."
+      },
+      "programs": {
+        "title": "Key Educational Programs",
+        "list": [
+          { "title": "Traditional Gurukuls", "desc": "Value-based residential education in a spiritual environment." },
+          { "title": "Modern Schools", "desc": "Equipping students with cutting-edge knowledge and technology." },
+          { "title": "Scholarship Fund", "desc": "Financial aid for meritorious students from underprivileged backgrounds." }
+        ]
+      },
+      "impact": {
+        "title": "Academic Realities",
+        "stats": [
+          { "value": "15,000+", "label": "Students Educated" },
+          { "value": "20+", "label": "Schools Managed" },
+          { "value": "$100k+", "label": "Scholarships Distributed" }
+        ]
+      },
+      "stories": {
+        "title": "Student Journeys",
+        "list": [
+          { "name": "Rahul's Success", "text": "From a remote village to an engineering degree, Rahul's journey embodies the power of MICF scholarships." },
+          { "name": "Priya's Wisdom", "text": "A Gurukul student who excelled in both ancient scriptures and modern mathematics." }
+        ]
+      },
+      "contribute": {
+        "title": "Make an Impact",
+        "options": [
+          { "title": "Sponsor a Student", "desc": "Provide annual fees and supplies for a child in need." },
+          { "title": "Volunteer as a Mentor", "desc": "Share your expertise through our guest lecture series." }
+        ]
+      },
+      "gallery": { "title": "Life at MICF Schools" },
+      "testimonials": {
+        "title": "Voices of Growth",
+        "list": [
+          { "text": "The combination of values and science has transformed my son's perspective.", "author": "Parent of a Student" },
+          { "text": "MICF didn't just give me an education, it gave me a purpose.", "author": "Former Scholarship Recipient" }
+        ]
+      },
+      "faqs": {
+        "title": "Questions on Learning",
+        "list": [
+          { "q": "Are the schools open to everyone?", "a": "Yes, our programs serve students from all backgrounds based on merit and need." },
+          { "q": "How can I apply for a scholarship?", "a": "Applications open annually in April through our regional centers." }
+        ]
+      },
+      "cta": {
+        "title": "Support the Future",
+        "button": "Support Education"
+      }
+    },
+    "social": {
+      "hero": {
+        "title": "Social Welfare",
+        "subtitle": "Serving humanity with compassion and selfless action."
+      },
+      "intro": {
+        "title": "Addressing Societal Challenges",
+        "content": "A healthy society is one that cares for its most vulnerable members. Our social welfare initiatives are designed to address immediate needs while creating sustainable pathways for long-term empowerment."
+      },
+      "vision": {
+        "title": "Vision for Harmony",
+        "content": "To build inclusive and supportive communities where every individual is treated with dignity and has the resources to thrive."
+      },
+      "programs": {
+        "title": "Welfare Activities",
+        "list": [
+          { "title": "Health Camps", "desc": "Free medical checkups and treatments for rural populations." },
+          { "title": "Food Drives", "desc": "Ensuring no one in our vicinity goes hungry through daily distribution." },
+          { "title": "Empowerment Workshops", "desc": "Skill training for women and marginalized groups." }
+        ]
+      },
+      "impact": {
+        "title": "Compassion in Numbers",
+        "stats": [
+          { "value": "50,000+", "label": "Families Supported" },
+          { "value": "200+", "label": "Medical Camps Conducted" },
+          { "value": "1M+", "label": "Meals Distributed" }
+        ]
+      },
+      "stories": {
+        "title": "Seeds of Change",
+        "list": [
+          { "name": "Vikas's Recovery", "text": "How a timely medical camp helped Vikas overcome a chronic health condition." },
+          { "name": "Deepa's Agency", "text": "Deepa now supports her family through the stitching skills she learned at our workshop." }
+        ]
+      },
+      "contribute": {
+        "title": "Lend a Hand",
+        "options": [
+          { "title": "Donate Essentials", "desc": "Provide food, medicine, or clothing for our welfare drives." },
+          { "title": "Volunteer On-Site", "desc": "Join our field teams during disaster relief and distribution." }
+        ]
+      },
+      "gallery": { "title": "Service in Action" },
+      "testimonials": {
+        "title": "Voices of Gratitude",
+        "list": [
+          { "text": "When we had nothing, MICF stood by us with food and hope.", "author": "Relief Beneficiary" },
+          { "text": "Their health camp was the first time my children saw a specialist.", "author": "Rural Resident" }
+        ]
+      },
+      "faqs": {
+        "title": "Welfare Queries",
+        "list": [
+          { "q": "How can I suggest a location for a health camp?", "a": "Please contact our regional coordinator with locality details and community needs." },
+          { "q": "What kind of donations do you accept?", "a": "We accept monetary donations, non-perishable food, and new clothing." }
+        ]
+      },
+      "cta": {
+        "title": "Be a Part of the Change",
+        "button": "Join the Cause"
+      }
+    },
+    "religion": {
+      "hero": {
+        "title": "Religion & Values",
+        "subtitle": "Preserving spiritual wisdom for a meaningful life."
+      },
+      "intro": {
+        "title": "Spiritual Enlightenment",
+        "content": "Spirituality provides the moral compass needed to navigate life's challenges. Our religious initiatives focus on spreading the message of Panch Krishna and the eternal values of the Mahanubhav philosophy."
+      },
+      "vision": {
+        "title": "Our Spiritual Goal",
+        "content": "To create a spiritually enlightened world where individuals live in peace, grounded in timeless moral and ethical values."
+      },
+      "programs": {
+        "title": "Core Teachings",
+        "list": [
+          { "title": "Satsangs", "desc": "Daily spiritual discourses and collective meditations." },
+          { "title": "Sacred Rituals", "desc": "Preserving and performing traditional rituals with devotion." },
+          { "title": "Youth Camps", "desc": "Introducing the next generation to spiritual roots and moral ethics." }
+        ]
+      },
+      "impact": {
+        "title": "Spiritual Reach",
+        "stats": [
+          { "value": "100,000+", "label": "Followers Engaged" },
+          { "value": "500+", "label": "Spiritual Centers" },
+          { "value": "Daily", "label": "Live Discourses" }
+        ]
+      },
+      "stories": {
+        "title": "Devotee Experiences",
+        "list": [
+          { "name": "Aditya's Peace", "text": "Finding inner calm and clarity through our daily meditation sessions." },
+          { "name": "Sumati's Faith", "text": "How spiritual teachings provided strength during her most difficult times." }
+        ]
+      },
+      "contribute": {
+        "title": "Connect Spiritually",
+        "options": [
+          { "title": "Join Sessions", "desc": "Participate in our weekly and monthly spiritual gatherings." },
+          { "title": "Seva (Service)", "desc": "Volunteer for maintenance and management at our spiritual centers." }
+        ]
+      },
+      "gallery": { "title": "Divine Gatherings" },
+      "testimonials": {
+        "title": "Reflections of Faith",
+        "list": [
+          { "text": "The teachings at MICF have brought immense balance to my professional life.", "author": "Corporate Professional" },
+          { "text": "A beautiful place to reconnect with my heritage and find guidance.", "author": "Youth Participant" }
+        ]
+      },
+      "faqs": {
+        "title": "Spiritual FAQs",
+        "list": [
+          { "q": "What is the core philosophy of MICF?", "a": "We follow the teachings of Sarvajna Shri Chakradhar Swami and the Panch Krishna lineage." },
+          { "q": "Are the sessions open to all?", "a": "Yes, our spiritual discourses are open to seekers from all walks of life." }
+        ]
+      },
+      "cta": {
+        "title": "Begin Your Journey",
+        "button": "Explore Spiritual Path"
+      }
+    },
+    "charity": {
+      "hero": {
+        "title": "Charity & Giving",
+        "subtitle": "Giving with purpose to transform lives."
+      },
+      "intro": {
+        "title": "The Culture of Seva",
+        "content": "Charity is not just about giving; it is about recognizing our shared humanity. Our foundation fosters a culture of generosity to ensure that no one is left behind due to a lack of resources."
+      },
+      "vision": {
+        "title": "Equal Opportunity",
+        "content": "To ensure equal opportunity through purposeful support and humanitarian aid for the most underserved populations."
+      },
+      "programs": {
+        "title": "Giving Initiatives",
+        "list": [
+          { "title": "Emergency Relief", "desc": "Rapid response and support during natural disasters." },
+          { "title": "Essential Needs", "desc": "Provision of clothing, shelter, and sanitation for the homeless." },
+          { "title": "Mission Support", "desc": "Funding for grassroots social and spiritual work globally." }
+        ]
+      },
+      "impact": {
+        "title": "Impact Tracker",
+        "stats": [
+          { "value": "$5M+", "label": "Funds Facilitated" },
+          { "value": "10M+", "label": "Lives Impacted" },
+          { "value": "Worldwide", "label": "Relief Footprint" }
+        ]
+      },
+      "stories": {
+        "title": "Impact Stories",
+        "list": [
+          { "name": "Flood Relief", "text": "Our team provided thousands of kits within 48 hours of the recent monsoon floods." },
+          { "name": "The Gift of Sight", "text": "Sponsoring cataract surgeries for dozens of elderly villagers." }
+        ]
+      },
+      "contribute": {
+        "title": "Become a Giver",
+        "options": [
+          { "title": "Online Donation", "desc": "Securely contribute to the cause of your choice through our website." },
+          { "title": "Planned Giving", "desc": "Discuss long-term support and endowments for sustainable impact." }
+        ]
+      },
+      "gallery": { "title": "Charity in Focus" },
+      "testimonials": {
+        "title": "Donor Perspectives",
+        "list": [
+          { "text": "I trust MICF because of their transparency and direct ground impact.", "author": "Regular Donor" },
+          { "text": "Seeing my contribution change a life was the most rewarding experience.", "author": "First-time Giver" }
+        ]
+      },
+      "faqs": {
+        "title": "Giver FAQs",
+        "list": [
+          { "q": "Where does my money go?", "a": "100% of your donation for a specific cause goes directly to that initiative." },
+          { "q": "Is my donation tax-deductible?", "a": "Yes, we provide 80G certificates for all eligible donations in India." }
+        ]
+      },
+      "cta": {
+        "title": "Offer Your Support",
+        "button": "Donate Now"
+      }
+    },
+    "environment": {
+      "hero": {
+        "title": "Environment Protection",
+        "subtitle": "Protecting nature for the sake of future generations."
+      },
+      "intro": {
+        "title": "Environmental Responsibility",
+        "content": "Planet Earth is a sacred gift that we must protect. Our environmental initiatives combine ecological science with spiritual reverence for nature to promote sustainable living."
+      },
+      "vision": {
+        "title": "Eco-Balance",
+        "content": "To create a sustainable and balanced ecosystem where humanity lives in harmony with nature's cycles."
+      },
+      "programs": {
+        "title": "Green Initiatives",
+        "list": [
+          { "title": "Tree Plantation", "desc": "Annual drives to restore green cover in urban and rural areas." },
+          { "title": "Water Conservation", "desc": "Building check dams and promoting rainwater harvesting." },
+          { "title": "Eco-Spiritual Gatherings", "desc": "Promoting zero-waste and plastic-free spiritual events." }
+        ]
+      },
+      "impact": {
+        "title": "Nature in Numbers",
+        "stats": [
+          { "value": "1M+", "label": "Trees Planted" },
+          { "value": "100+", "label": "Water Bodies Restored" },
+          { "value": "Zero", "label": "Waste at Major Events" }
+        ]
+      },
+      "stories": {
+        "title": "Success Stories",
+        "list": [
+          { "name": "Forest Revival", "text": "Reviving a barren hillside near Pune into a thriving community forest." },
+          { "name": "Village Self-Sufficiency", "text": "How rainwater harvesting provided year-round water to an arid village." }
+        ]
+      },
+      "contribute": {
+        "title": "Act for Earth",
+        "options": [
+          { "title": "Plant a Tree", "desc": "Specify a sapling to be planted in your name during our next drive." },
+          { "title": "Eco-Volunteer", "desc": "Participate in cleanup drives and environmental awareness camps." }
+        ]
+      },
+      "gallery": { "title": "Our Green Projects" },
+      "testimonials": {
+        "title": "Nature's Voices",
+        "list": [
+          { "text": "Participating in their plantation drive was a meditative experience.", "author": "Volunteer" },
+          { "text": "Their zero-waste initiative has changed how I manage my own home.", "author": "Attendee" }
+        ]
+      },
+      "faqs": {
+        "title": "Eco Queries",
+        "list": [
+          { "q": "How can I get involved in the plantation drive?", "a": "Drives usually take place during the monsoon season; watch our news section for signups." },
+          { "q": "Do you provide saplings?", "a": "Yes, we provide indigenous saplings to participants for free." }
+        ]
+      },
+      "cta": {
+        "title": "Nurture the Nature",
+        "button": "Act for Nature"
+      }
+    }
+  }
+}
